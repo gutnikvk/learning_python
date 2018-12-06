@@ -1,3 +1,5 @@
+import file_io
+
 bob = {
     'name': 'Bob Smith',
     'age': 42,
@@ -29,4 +31,7 @@ if __name__ == '__main__':
     for key in db:
         print(key, '=>\n', db[key])
 
+db_file_name = 'people_file.txt'
+
+file_io.store_database(db, db_file_name)
 input()
