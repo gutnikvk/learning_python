@@ -27,11 +27,10 @@ db = {
     'Tom': tom
 }
 
-if __name__ == '__main__':
-    for key in db:
-        print(key, '=>\n', db[key])
+print(db)
 
-db_file_name = 'people_file.txt'
+db_file_name = 'people_file'
 
-file_io.store_database(db, db_file_name)
+file_io.store_raw_db(db, db_file_name)
+
 input()
