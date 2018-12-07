@@ -3,7 +3,7 @@ import json
 
 def store_raw_db(db, db_file_name):
     db_file = open(db_file_name, 'w')
-    print(json.dumps(db, indent=2), file=db_file)
+    print(json.dumps(db, indent=4), file=db_file)
     db_file.close()
 
 
