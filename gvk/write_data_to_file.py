@@ -1,5 +1,5 @@
 import file_io
-import json
+
 
 bob = {
     'name': 'Bob Smith',
@@ -27,9 +27,6 @@ db = {
     'Sue': sue,
     'Tom': tom
 }
-
-print(db)
-print(type(json.dumps(db)))  #Convert dictionary to JSON string
 
 db_file_name = 'people_file'
 
