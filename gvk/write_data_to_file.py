@@ -1,5 +1,4 @@
-import file_io
-
+import gvk.file_io as file_io
 
 bob = {
     'name': 'Bob Smith',
@@ -31,5 +30,3 @@ db = {
 db_file_name = 'people_file'
 
 file_io.store_raw_db(db, db_file_name)
-
-input()
