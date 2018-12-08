@@ -1,4 +1,4 @@
-import gvk.file_io as file_io
+import gvk.JSON_file_db.file_io as file_io
 
 bob = {
     'name': 'Bob Smith',
@@ -27,6 +27,6 @@ db = {
     'Tom': tom
 }
 
-db_file_name = 'people_file'
+db_file_name = 'people_file.json'
 
 file_io.store_raw_db(db, db_file_name)
