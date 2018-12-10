@@ -39,9 +39,10 @@ if __name__ == '__main__':
     for key in db:
         print(key, '=> \n ', db[key]['name']['first'] +
               ' ' + db[key]['name']['second'] +
-              ', ' + db[key]['job'] +
+              ', ' + str(db[key]['job']) +
               ', ' + str(db[key]['age']) +
               ', ' + str(db[key]['pay']))
-        input("press any key")
+
+input()
 
 
