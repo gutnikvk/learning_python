@@ -1,12 +1,39 @@
-def add_worker(db, first_name, second_name, job, age, pay):
-    record = dict(name=dict(first=first_name, second=second_name), job=job, age=age, pay=pay)
-    db[first_name + '_' + second_name] = record
+bob = {
+    'name': {
+        'first': 'Bob',
+        'second': 'Smith'
+    },
+    'age': 42,
+    'job': 'dev',
+    'pay': 70000
+}
 
+sue = {
+    'name': {
+        'first': 'Sue',
+        'second': 'Jonson'
+    },
+    'age': 45,
+    'job': 'teamlead',
+    'pay': 150000
+}
 
-db = {}
-add_worker(db, 'Jamie', 'Oliver', 'cook', 47, 500000)
-add_worker(db, 'Bob', 'Tornton', 'actor', 52, 1000000)
-add_worker(db, 'Sue', 'Jonson', 'janitor', 47, 10000)
+tom = {
+    'name': {
+        'first': 'Tom',
+        'second': '???'
+    },
+    'age': 18,
+    'job': None,
+    'pay': 0
+}
+
+db = {
+    'Bob': bob,
+    'Sue': sue,
+    'Tom': tom
+}
+
 
 if __name__ == '__main__':
     for key in db:

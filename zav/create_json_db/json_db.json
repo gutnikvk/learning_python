@@ -1,29 +1,29 @@
 {
-    "Sue_Jonson": {
+    "Tom": {
+        "name": {
+            "second": "???",
+            "first": "Tom"
+        },
+        "pay": 0,
+        "age": 18,
+        "job": null
+    },
+    "Sue": {
         "name": {
             "second": "Jonson",
             "first": "Sue"
         },
-        "pay": 10000,
-        "job": "janitor",
-        "age": 47
+        "pay": 150000,
+        "age": 45,
+        "job": "teamlead"
     },
-    "Bob_Tornton": {
+    "Bob": {
         "name": {
-            "second": "Tornton",
+            "second": "Smith",
             "first": "Bob"
         },
-        "pay": 1000000,
-        "job": "actor",
-        "age": 52
-    },
-    "Jamie_Oliver": {
-        "name": {
-            "second": "Oliver",
-            "first": "Jamie"
-        },
-        "pay": 500000,
-        "job": "cook",
-        "age": 47
+        "pay": 70000,
+        "age": 42,
+        "job": "dev"
     }
 }
