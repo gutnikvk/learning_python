@@ -1,0 +1,29 @@
+{
+    "Tom": {
+        "name": {
+            "second": "???",
+            "first": "Tom"
+        },
+        "pay": 0,
+        "age": 18,
+        "job": null
+    },
+    "Sue": {
+        "name": {
+            "second": "Jonson",
+            "first": "Sue"
+        },
+        "pay": 150000,
+        "age": 45,
+        "job": "teamlead"
+    },
+    "Bob": {
+        "name": {
+            "second": "Smith",
+            "first": "Bob"
+        },
+        "pay": 70000,
+        "age": 42,
+        "job": "dev"
+    }
+}
