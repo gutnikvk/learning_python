@@ -9,6 +9,7 @@ def get_fibonacci_number(n):
         return get_fibonacci_number(n - 1) + get_fibonacci_number(n - 2)
 
 
-n = int(input('Input a positive integer\n'))
-check_input_number(n)
-print(get_fibonacci_number(n))
+if __name__ == '__main__':
+    n = int(input('Input a positive integer\n'))
+    check_input_number(n)
+    print(get_fibonacci_number(n))
