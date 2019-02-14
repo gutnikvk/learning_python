@@ -8,3 +8,4 @@ def euclid_gcd(a, b):
 if __name__ == '__main__':
     a, b = map(int, input('Input two integers').split())
     print(euclid_gcd(a, b))
+    input()
