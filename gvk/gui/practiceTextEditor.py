@@ -35,10 +35,13 @@ saveButton = Button(
 textArea = Text(
     index
 )
+scrollbar = Scrollbar(textArea, command=textArea.yview)
 entry.grid(row=0, column=0, sticky=E + W + S + N)
 openButton.grid(row=0, column=1)
 saveButton.grid(row=0, column=2)
 textArea.grid(row=1, columnspan=3, sticky=E + W + S + N)
+textArea.config(yscrollcommand=scrollbar.set)
+scrollbar.pack(side=RIGHT, fill=Y)
 index.grid_columnconfigure(0, weight=1)
 index.grid_rowconfigure(1, weight=1)
 index.mainloop()
