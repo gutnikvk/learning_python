@@ -24,13 +24,17 @@ openButton = Button(
     index,
     width=8,
     text='Open',
-    command=openFile
+    command=openFile,
+    bg='black',
+    fg='white'
 )
 saveButton = Button(
     index,
     width=8,
     text='Save',
-    command=saveFile
+    command=saveFile,
+    bg='black',
+    fg='white'
 )
 textArea = Text(
     index
